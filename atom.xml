@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Zekeair's Track]]></title>
+  <subtitle><![CDATA[Blog or Zone whatever you say.]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://track.zekeair.xyz/"/>
+  <updated>2015-12-22T07:24:52.000Z</updated>
+  <id>http://track.zekeair.xyz/</id>
+  
+  <author>
+    <name><![CDATA[Zekeair]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[test two]]></title>
+    <link href="http://track.zekeair.xyz/2015/12/22/test-two/"/>
+    <id>http://track.zekeair.xyz/2015/12/22/test-two/</id>
+    <published>2015-12-22T07:24:52.000Z</published>
+    <updated>2015-12-22T07:24:52.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[en-test]]></title>
+    <link href="http://track.zekeair.xyz/2015/12/22/en-test/"/>
+    <id>http://track.zekeair.xyz/2015/12/22/en-test/</id>
+    <published>2015-12-22T06:39:31.000Z</published>
+    <updated>2015-12-22T06:39:31.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[test-post2]]></title>
+    <link href="http://track.zekeair.xyz/2015/12/22/test-post2/"/>
+    <id>http://track.zekeair.xyz/2015/12/22/test-post2/</id>
+    <published>2015-12-22T02:45:27.000Z</published>
+    <updated>2015-12-22T02:45:27.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[new post]]></title>
+    <link href="http://track.zekeair.xyz/2015/12/21/new-post/"/>
+    <id>http://track.zekeair.xyz/2015/12/21/new-post/</id>
+    <published>2015-12-21T15:33:44.000Z</published>
+    <updated>2015-12-21T15:33:44.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World——从Hexo开始(三)]]></title>
+    <link href="http://track.zekeair.xyz/2015/12/07/hello-world-form-hexo-3/"/>
+    <id>http://track.zekeair.xyz/2015/12/07/hello-world-form-hexo-3/</id>
+    <published>2015-12-07T14:19:40.000Z</published>
+    <updated>2015-12-07T14:22:59.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/gallery/2015/12/07/cover.jpg" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="/images/gallery/2015/12/07/cover.jpg" alt=""></p>
+]]>
+    </summary>
+    
+      <category term="Hexo" scheme="http://track.zekeair.xyz/tags/Hexo/"/>
+    
+      <category term="Javascript" scheme="http://track.zekeair.xyz/tags/Javascript/"/>
+    
+      <category term="Node" scheme="http://track.zekeair.xyz/tags/Node/"/>
+    
+      <category term="Skills" scheme="http://track.zekeair.xyz/categories/Skills/"/>
+    
+      <category term="Javascript" scheme="http://track.zekeair.xyz/categories/Skills/Javascript/"/>
+    
+      <category term="Node" scheme="http://track.zekeair.xyz/categories/Skills/Javascript/Node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World——从Hexo开始(二)]]></title>
+    <link href="http://track.zekeair.xyz/2015/12/03/hello-world-form-hexo-2/"/>
+    <id>http://track.zekeair.xyz/2015/12/03/hello-world-form-hexo-2/</id>
+    <published>2015-12-03T14:13:38.000Z</published>
+    <updated>2015-12-11T14:40:20.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/gallery/2015/12/03/cover.jpg" alt=""></p>
+<p>　　今儿来说说如何修改和定制化一个Hexo的主题。说到定制化主题，当然是对于我这比较懒的人或者对于设计的明锐性不够的同学，如果你有很好的色感和整体布局意识，自己重新设计一个主题当然就更好了。</p>
+<p>　　我们需要先找到一个比较满意的主题。毕竟（我个人觉得），默认的主题不够大气。<a href="https://hexo.io/themes/" target="_blank" rel="external">这里</a>是Hexo的官方主题站，除此之外，在github上也可以找到很多非官网收录的主题。这里，我选择了<a href="https://github.com/ppoffice" target="_blank" rel="external">ppoffice</a>设计的<a href="http://blog.zhangruipeng.me/hexo-theme-minos/" target="_blank" rel="external">minos</a>主题。浓浓的retro风格和纯粹的极简淋漓尽致的表达了什么叫做文艺气质。<a id="more"></a></p>
+<p>　　在此，先罗列出需要修改的几个点：</p>
+<ol>
+<li>导航栏上下的对称留白我觉得过于死板，我喜欢上部留白略多于下部，这样显得更加鲜活。</li>
+<li>给主题p标签添加<code>text-align: justigy</code>的样式，使每行的文字排列整体，避免出现参差不齐的现象。</li>
+<li>现在的pc的屏幕多数已经普及为宽屏，而一般文章的内容不会占满整个页面，尝试添加一个现实简介的版面。</li>
+<li>修改一下Markdown渲染之后的样式，默认的主题样式有的时候用起来不是很便捷。</li>
+</ol>
+<p>　　
+　　</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="/images/gallery/2015/12/03/cover.jpg" alt=""></p>
+<p>　　今儿来说说如何修改和定制化一个Hexo的主题。说到定制化主题，当然是对于我这比较懒的人或者对于设计的明锐性不够的同学，如果你有很好的色感和整体布局意识，自己重新设计一个主题当然就更好了。</p>
+<p>　　我们需要先找到一个比较满意的主题。毕竟（我个人觉得），默认的主题不够大气。<a href="https://hexo.io/themes/">这里</a>是Hexo的官方主题站，除此之外，在github上也可以找到很多非官网收录的主题。这里，我选择了<a href="https://github.com/ppoffice">ppoffice</a>设计的<a href="http://blog.zhangruipeng.me/hexo-theme-minos/">minos</a>主题。浓浓的retro风格和纯粹的极简淋漓尽致的表达了什么叫做文艺气质。]]>
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://track.zekeair.xyz/tags/Hexo/"/>
+    
+      <category term="Javascript" scheme="http://track.zekeair.xyz/tags/Javascript/"/>
+    
+      <category term="Node" scheme="http://track.zekeair.xyz/tags/Node/"/>
+    
+      <category term="Skills" scheme="http://track.zekeair.xyz/categories/Skills/"/>
+    
+      <category term="Javascript" scheme="http://track.zekeair.xyz/categories/Skills/Javascript/"/>
+    
+      <category term="Node" scheme="http://track.zekeair.xyz/categories/Skills/Javascript/Node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World——从Hexo开始(一)]]></title>
+    <link href="http://track.zekeair.xyz/2015/12/02/hello-world-from-hexo/"/>
+    <id>http://track.zekeair.xyz/2015/12/02/hello-world-from-hexo/</id>
+    <published>2015-12-02T11:23:18.000Z</published>
+    <updated>2015-12-22T09:03:11.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/gallery/2015/12/02/cover.jpg" alt=""></p>
+<p>　　既然是在搭建博客系统，那么当然要介绍和学习一下关于本博客系统的基础引擎Hexo。在写这篇文章的时候，本人也在摸索的学习Hexo。说白了就是玩。所以把这其中遇到的一些问题或者经验记录下来，希望能够帮助到一些初识Hexo的朋友。本文会介绍一些Hexo的基础配置和使用，而比较高阶的比如模板和主题的定制化等，在后续文章中会详细介绍。<a id="more"></a><br>　　<br>　　首先，是安装Hexo。关于对于Hexo的介绍和了解，请问Hexo的官网或github页面<a href="https://hexo.io/" target="_blank" rel="external">https://hexo.io/</a>。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<blockquote>
+<h3 id="注意：">注意：</h3><p>我发现在Mac操作系统下NodeJS的版本大于等于v5.0.0后，运行Hexo会报部分模块无法找到的错误。我已经提交<a href="https://github.com/hexojs/hexo/issues/1597" target="_blank" rel="external">issue:#1597</a>到了Hexo小组。如果你在使用Hexo的时候问题还没有修复。请以较低版本的NodeJS运行Hexo（比如v0.12.7）。</p>
+</blockquote>
+<p>　　然后，对博客所在的目录进行初始化并跳转到博客目录。这里假设使用的博客目录名称为blog。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog &amp;&amp; <span class="built_in">cd</span> blog</span><br></pre></td></tr></table></figure>
+<p>　　安装所依赖的模块。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<p>　　由于从Hexo 3开始，server模块已经从主模块中分离，所以需要单独安装。安装server模块并运行server模块。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-server --save</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>　　通过浏览器访问<a href="http://localhost:4000" target="_blank" rel="external">localhost:4000</a>即可访问在本地的博客系统。至此，博客系统的雏形就搭建完了。而关于系统的详细配置，目录更改等内容，请参照Hexo官方文档<a href="https://hexo.io/docs/" target="_blank" rel="external">https://hexo.io/docs/</a>。详细而全面同时还友好的支持中文。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title: Hello World&#10;date: 2013/7/13 20:46:25&#10;---</span><br></pre></td></tr></table></figure>
+<p>　　</p>
+<h3 id="Tips:">Tips:</h3><ul>
+<li><p>Read More/显示详情：对于一些内容较长的博文，往往希望只在展示页显示一部分，通过点击相关链接显示全部内容。那么记得在Post中添加<code>&lt;!-- more --&gt;</code>。其后的内容将不显示在展示页。</p>
+</li>
+<li><p>文章中的图片存放位置：在blog根目录下的source目录下创建一个images目录存放图片，不同的文章可以通过时间或者标题进行划分管理。在文章中只需要通过<code>![](/images/title/picture.jpg)</code>即可以访问。Hexo提供了两外一种方式，按照不同的Post的title创建一个目录存放图片（需要在_config.yml中配置<code>post_asset_folder: true</code>）,然后通过文件的名字即可访问。但由于这种方式是通过相对路径访问，在展示页图片显示异常，同时不利于后期文件的整理和管理。固不推荐第二种方式。</p>
+</li>
+<li><p>对post的layout的配置：默认的post的layout只有很少的内容。建议将评论和目录的占位符一并添加。当然，也可以创建一个新的layout。</p>
+  <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title: &#123;&#123; title &#125;&#125;&#10;date: &#123;&#123; date &#125;&#125;&#10;comments: true&#10;tags:&#10;categories:&#10;---</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>　　<strong>至此</strong>，虽然离博客系统的搭建完成还有很多工作要做。但已经可以开始写博文了，只要熟悉<a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">Markdown</a>即可。一边探索Hexo，一边记录post，感觉还是不错的。下篇文章将会说说如何定制化一个Hexo的主题。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="/images/gallery/2015/12/02/cover.jpg" alt=""></p>
+<p>　　既然是在搭建博客系统，那么当然要介绍和学习一下关于本博客系统的基础引擎Hexo。在写这篇文章的时候，本人也在摸索的学习Hexo。说白了就是玩。所以把这其中遇到的一些问题或者经验记录下来，希望能够帮助到一些初识Hexo的朋友。本文会介绍一些Hexo的基础配置和使用，而比较高阶的比如模板和主题的定制化等，在后续文章中会详细介绍。]]>
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://track.zekeair.xyz/tags/Hexo/"/>
+    
+      <category term="Javascript" scheme="http://track.zekeair.xyz/tags/Javascript/"/>
+    
+      <category term="Node" scheme="http://track.zekeair.xyz/tags/Node/"/>
+    
+      <category term="Skills" scheme="http://track.zekeair.xyz/categories/Skills/"/>
+    
+      <category term="Javascript" scheme="http://track.zekeair.xyz/categories/Skills/Javascript/"/>
+    
+      <category term="Node" scheme="http://track.zekeair.xyz/categories/Skills/Javascript/Node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[开篇，论道]]></title>
+    <link href="http://track.zekeair.xyz/2015/12/01/first-step-on-my-way/"/>
+    <id>http://track.zekeair.xyz/2015/12/01/first-step-on-my-way/</id>
+    <published>2015-12-01T07:31:59.000Z</published>
+    <updated>2015-12-02T13:48:49.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/gallery/2015/12/01/cover.jpg" alt=""></p>
+<h2 id="缘起">缘起</h2><p>　　其实自己很早很早以前就像自己做一个属于自己的博客。但是由于太忙（懒），一直就拖啊拖啊的，拖到了现在，才搭了第一个属于自己的博客。契机就是一来呢我生病了，不得不在家静养(不要问我什么病，除非你想来看望我)；二来呢看到人家雁总(<a href="http://cyan-blue.github.io/" target="_blank" rel="external">这是他家的博客</a>)的博客写的风生水起而发现真是是时候发些牢骚了，所有才有了这个小站。<a id="more"></a></p>
+<p>　　本站估计什么内容都会涉猎，只要是博主想知道的，或者是正在研究的，或者是想吐槽的，都会出现。但主要还是以技术性文章为主，毕竟本人还是以技术性工作内容为主嘛。</p>
+<h2 id="开篇">开篇</h2><p>　　既然是第一篇博文，就聊聊自己吧。我是一个很懒的人，懒到觉得交女朋友都觉得很麻烦。但我又是一个希望改变世界的人，在一层层的生活轨迹中，总是试着看穿其中的本质并作出改变。懒的基因是我老爸传给我的，因为他就是一个非常懒的人，他可以懒到在家一个星期都不出门（如果没有事而且也不用上班的话）；变的基因是我老妈传给我的，她是一个非常要强的女人，也总是和别人不一样，任何事和人，她都有自己独到的看法。所以两种风马牛不相及的基因就成就了我这样一个纯粹的怪人——一个想改变世界的懒人。</p>
+<h2 id="论道">论道</h2><p>　　活到现在(写这篇文章的时候，我都已经25岁了)，我依然非常迷茫。我想做很多很多的事，多到包含了整个世界。但我又怕自己的时间有限而错过了什么，所以现在很多尝试都是只是浅尝辄止。我一直在尝试着找到真正属于我的道路。所以我给我的博客起名叫做Zekeair’s Track，希望有一天，我真正能够看清我自己存在的轨迹。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="/images/gallery/2015/12/01/cover.jpg" alt=""></p>
+<h2 id="缘起">缘起</h2><p>　　其实自己很早很早以前就像自己做一个属于自己的博客。但是由于太忙（懒），一直就拖啊拖啊的，拖到了现在，才搭了第一个属于自己的博客。契机就是一来呢我生病了，不得不在家静养(不要问我什么病，除非你想来看望我)；二来呢看到人家雁总(<a href="http://cyan-blue.github.io/">这是他家的博客</a>)的博客写的风生水起而发现真是是时候发些牢骚了，所有才有了这个小站。]]>
+    
+    </summary>
+    
+      <category term="吐槽" scheme="http://track.zekeair.xyz/tags/%E5%90%90%E6%A7%BD/"/>
+    
+      <category term="杂谈" scheme="http://track.zekeair.xyz/categories/%E6%9D%82%E8%B0%88/"/>
+    
+      <category term="生活" scheme="http://track.zekeair.xyz/categories/%E6%9D%82%E8%B0%88/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://track.zekeair.xyz/2015/11/19/hello-world/"/>
+    <id>http://track.zekeair.xyz/2015/11/19/hello-world/</id>
+    <published>2015-11-19T08:45:05.000Z</published>
+    <updated>2015-11-19T08:45:05.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+</feed>

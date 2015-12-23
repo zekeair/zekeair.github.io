@@ -150,11 +150,20 @@ body {
 }
 #container {
   position: relative;
-  padding-left: 30%;
+  padding-left: 350px;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 @media screen and (max-width: 1200px) {
   #container {
     padding-left: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #container {
+    padding-left: 520px;
   }
 }
 .logo {
@@ -287,41 +296,46 @@ a.article-title:hover,
 }
 #brief-panel {
   position: fixed;
-  width: 30%;
+  width: 350px;
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #000;
+  background-color: #353535;
   color: #fff;
+  z-index: 999;
   -webkit-transition: ease 0.5s;
   -moz-transition: ease 0.5s;
   -ms-transition: ease 0.5s;
   transition: ease 0.5s;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 839px) {
   #brief-panel {
     position: relative;
     width: 100%;
     display: none;
   }
 }
-.panel-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 50% 10%;
-  text-align: center;
-}
-@media screen and (max-width: 1200px) {
-  .panel-box {
-    position: relative;
-    padding: 20px;
+@media screen and (min-width: 1400px) {
+  #brief-panel {
+    width: 520px;
   }
 }
+@media screen and (max-width: 1200px) {
+  #brief-panel {
+    left: -350px;
+  }
+}
+.panel-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 50px 10%;
+  text-align: center;
+}
 .panel-avatar {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto 20px;
   border: 3px solid #fff;
   overflow: hidden;
@@ -332,11 +346,15 @@ a.article-title:hover,
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   background-size: 100%;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .panel-avatar {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 }
 .panel-avatar a {
@@ -345,13 +363,13 @@ a.article-title:hover,
   height: 100%;
 }
 .panel-nickname {
-  font-size: 30px;
-  margin: 20px 0;
+  font-size: 24px;
+  margin: 10px 0;
 }
-@media screen and (max-width: 839px) {
+@media screen and (min-width: 1400px) {
   .panel-nickname {
-    font-size: 24px;
-    margin: 10px 0px;
+    font-size: 30px;
+    margin: 20px 0px;
   }
 }
 a.bottom-white-dotted {
@@ -360,49 +378,55 @@ a.bottom-white-dotted {
   color: #fff;
 }
 .panel-name {
-  font-size: 24px;
-  margin: 15px 0;
+  font-size: 20px;
+  margin: 10px 0;
 }
-@media screen and (max-width: 839px) {
+@media screen and (min-width: 1400px) {
   .panel-name {
-    font-size: 20px;
-    margin: 10px 0px;
+    font-size: 24px;
+    margin: 15px 0px;
   }
 }
 .panel-description {
   color: #777;
   text-align: center;
-  margin: 15px 0;
+  margin: 10px 0;
 }
-@media screen and (max-width: 839px) {
+@media screen and (min-width: 1400px) {
   .panel-description {
-    margin: 10px 0px;
+    margin: 15px 0px;
   }
 }
 .panel-about {
-  margin: 15px 0;
+  margin: 10px 0;
 }
-@media screen and (max-width: 839px) {
+@media screen and (min-width: 1400px) {
   .panel-about {
-    margin: 10px 0px;
+    margin: 15px 0px;
   }
 }
 .panel-about-link {
-  font-size: 20px;
+  font-size: 18px;
   color: #864444;
   text-decoration: none;
+}
+@media screen and (min-width: 1400px) {
+  .panel-about-link {
+    font-size: 20px;
+  }
 }
 .panel-contact-link {
   text-decoration: none;
   display: inline-block;
-  padding: 0 25px;
+  padding: 0 15px;
   color: #777;
-  font-size: 45px;
+  font-size: 30px;
   font-family: FontAwesome;
 }
-@media screen and (max-width: 839px) {
+@media screen and (min-width: 1400px) {
   .panel-contact-link {
-    font-size: 30px;
+    font-size: 45px;
+    padding: 0 25px;
   }
 }
 .github::before {
