@@ -740,6 +740,10 @@ a.bottom-white-dotted {
   height: 100%;
   margin-top: 0;
 }
+p.article-more-link {
+  float: right;
+  margin: 0;
+}
 .article-more-link a {
   color: #939393;
   border-bottom-color: #939393;
