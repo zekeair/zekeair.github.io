@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Blog or Zone whatever you say.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://track.zekeair.xyz/"/>
-  <updated>2015-12-22T07:24:52.000Z</updated>
+  <updated>2015-12-24T13:33:25.000Z</updated>
   <id>http://track.zekeair.xyz/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[test two]]></title>
-    <link href="http://track.zekeair.xyz/2015/12/22/test-two/"/>
-    <id>http://track.zekeair.xyz/2015/12/22/test-two/</id>
+    <title><![CDATA[漫谈原型设计工具——Axure]]></title>
+    <link href="http://track.zekeair.xyz/2015/12/22/axure-a-tool-to-prototype-design/"/>
+    <id>http://track.zekeair.xyz/2015/12/22/axure-a-tool-to-prototype-design/</id>
     <published>2015-12-22T07:24:52.000Z</published>
-    <updated>2015-12-22T07:24:52.000Z</updated>
+    <updated>2015-12-24T13:33:25.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
 ]]></content>
     <summary type="html">
@@ -27,50 +27,36 @@
 ]]>
     </summary>
     
-  </entry>
-  
-  <entry>
-    <title><![CDATA[en-test]]></title>
-    <link href="http://track.zekeair.xyz/2015/12/22/en-test/"/>
-    <id>http://track.zekeair.xyz/2015/12/22/en-test/</id>
-    <published>2015-12-22T06:39:31.000Z</published>
-    <updated>2015-12-22T06:39:31.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
-]]>
-    </summary>
+      <category term="Proto Design" scheme="http://track.zekeair.xyz/tags/Proto-Design/"/>
+    
+      <category term="工具" scheme="http://track.zekeair.xyz/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="原型设计" scheme="http://track.zekeair.xyz/categories/%E5%B7%A5%E5%85%B7/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/"/>
+    
+      <category term="Axure" scheme="http://track.zekeair.xyz/categories/%E5%B7%A5%E5%85%B7/%E5%8E%9F%E5%9E%8B%E8%AE%BE%E8%AE%A1/Axure/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[test-post2]]></title>
-    <link href="http://track.zekeair.xyz/2015/12/22/test-post2/"/>
-    <id>http://track.zekeair.xyz/2015/12/22/test-post2/</id>
-    <published>2015-12-22T02:45:27.000Z</published>
-    <updated>2015-12-22T02:45:27.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
-]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[new post]]></title>
-    <link href="http://track.zekeair.xyz/2015/12/21/new-post/"/>
-    <id>http://track.zekeair.xyz/2015/12/21/new-post/</id>
+    <title><![CDATA[旧书单]]></title>
+    <link href="http://track.zekeair.xyz/2015/12/21/old-book-sheet/"/>
+    <id>http://track.zekeair.xyz/2015/12/21/old-book-sheet/</id>
     <published>2015-12-21T15:33:44.000Z</published>
-    <updated>2015-12-21T15:33:44.000Z</updated>
+    <updated>2015-12-24T13:23:41.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="/images/gallery////cover.jpg" alt=""></p>
 ]]>
     </summary>
+    
+      <category term="books-sheet" scheme="http://track.zekeair.xyz/tags/books-sheet/"/>
+    
+      <category term="读书" scheme="http://track.zekeair.xyz/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="读书" scheme="http://track.zekeair.xyz/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="旧书单" scheme="http://track.zekeair.xyz/categories/%E8%AF%BB%E4%B9%A6/%E6%97%A7%E4%B9%A6%E5%8D%95/"/>
     
   </entry>
   

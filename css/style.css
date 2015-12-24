@@ -438,6 +438,93 @@ a.bottom-white-dotted {
 .rss::before {
   content: "\f143";
 }
+.article-type-about {
+  position: relative;
+}
+.about-avatar {
+  display: none;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 20px;
+  border: 3px dotted #fff;
+  overflow: hidden;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-image: url("images/avatar.jpg");
+  background-position: center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+@media screen and (max-width: 1200px) {
+  .about-avatar {
+    display: block;
+  }
+}
+.about-title {
+  text-align: center;
+  position: relative;
+}
+.about-arrow {
+  margin-right: 50px;
+  margin-bottom: 50px;
+  float: left;
+  width: 186px;
+  height: 73px;
+  background-image: url("images/about-arrow.png");
+  background-position: center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .about-arrow {
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipV;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 839px) {
+  .about-arrow {
+    width: 93px;
+    height: 37px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+.about-contact {
+  display: none;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .about-contact {
+    display: block;
+  }
+}
+.about-contact-link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 15px;
+  color: #353535;
+  font-size: 45px;
+  font-family: FontAwesome;
+}
+@media screen and (max-width: 839px) {
+  .about-contact-link {
+    font-size: 30px;
+    padding: 0 5px;
+  }
+}
+.email:before {
+  content: "\f0e0";
+}
 #header {
   font-size: 14px;
   position: relative;
@@ -481,6 +568,21 @@ a.bottom-white-dotted {
   .main-nav-link {
     float: none;
     text-align: center;
+  }
+}
+.main-nav-about {
+  position: relative;
+  top: -500px;
+  opacity: 0;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+@media screen and (max-width: 1200px) {
+  .main-nav-about {
+    top: 0;
+    opacity: 1;
   }
 }
 #main-nav-toggle {
