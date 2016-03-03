@@ -5,17 +5,19 @@
   
   <title>Google分析与页面加载 - Zekeair&#39;s Track</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
+  <meta name="description" content="发现一篇讲述浏览器页面加载以及Google分析等数据收集工具运行机制的极好的文章，原文先贴出来: Google Analytics And The Page Load ，自己看得有点生涩，现尝试将其翻译出来，加深理解。　　——————————————————————————————————————————————————————————————————————　
+Google分析与页面加载如果你使">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Google分析与页面加载">
 <meta property="og:url" content="http://track.zekeair.xyz/2015/12/25/google-analytics-and-the-page-load/index.html">
 <meta property="og:site_name" content="Zekeair's Track">
-<meta property="og:description">
-<meta property="og:image" content="http://track.zekeair.xyz/images/gallery/2015/12/25/cover.jpg">
-<meta property="og:updated_time" content="2015-12-25T06:09:40.000Z">
+<meta property="og:description" content="发现一篇讲述浏览器页面加载以及Google分析等数据收集工具运行机制的极好的文章，原文先贴出来: Google Analytics And The Page Load ，自己看得有点生涩，现尝试将其翻译出来，加深理解。　　——————————————————————————————————————————————————————————————————————　
+Google分析与页面加载如果你使">
+<meta property="og:updated_time" content="2015-12-30T09:25:29.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Google分析与页面加载">
-<meta name="twitter:description">
+<meta name="twitter:description" content="发现一篇讲述浏览器页面加载以及Google分析等数据收集工具运行机制的极好的文章，原文先贴出来: Google Analytics And The Page Load ，自己看得有点生涩，现尝试将其翻译出来，加深理解。　　——————————————————————————————————————————————————————————————————————　
+Google分析与页面加载如果你使">
 <meta name="twitter:creator" content="@zekeair">
   
   
@@ -116,7 +118,11 @@ ga('send', 'pageview');
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/images/gallery/2015/12/25/cover.jpg" alt=""></p>
+        <p>　　发现一篇讲述浏览器页面加载以及Google分析等数据收集工具运行机制的极好的文章，原文先贴出来: <strong><a href="http://www.simoahava.com/analytics/google-analytics-page-load/" target="_blank" rel="external">Google Analytics And The Page Load</a></strong> ，自己看得有点生涩，现尝试将其翻译出来，加深理解。<br>　　<br>——————————————————————————————————————————————————————————————————————　</p>
+<h2 id="Google分析与页面加载">Google分析与页面加载</h2><p>如果你使用过<a href="http://www.google.com/analytics/" target="_blank" rel="external">Google分析</a>、<a href="https://tagmanager.google.com/" target="_blank" rel="external">Google标签管理</a>，或者任何基于Javascript的数据收集与分析平台的产品，你是否曾经好奇过他们到底是如何工作的？我能理解，你当然更加关心那些收集到的数据，但你是否认为一切关于这些工具的处理和运行都是理所当然？<a id="more"></a></p>
+<p>这个问题我思考了很长一段时间，因为我并不确定那些在工作中与这些平台息息相关的人们，是否真正的理解浏览器与页面之间是如何交互的。</p>
+<p>当然这些都无关紧要，但确实令我有一点点的吃惊。</p>
+<p>因为如今关于网页分析的主导范式 (predominant paradigm) 都是围绕 Javascript 的，所以对于理解这一技术的薄弱环节非常的重要。而在 Javascript 参与进来之前，有一些你为了能获得更高质量的数据而必须遵守的关于页面加载过程的部分你需要了解。</p>
 
       
     </div>
@@ -132,6 +138,14 @@ ga('send', 'pageview');
   
     
 <nav id="article-nav">
+  
+    <a href="/2016/01/01/book-sheet-in-2016/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-title"><span>&lt;</span>&nbsp;
+        
+          2016年书单
+        
+      </div>
+    </a>
   
   
     <a href="/2015/12/22/axure-a-tool-to-prototype-design/" id="article-nav-older" class="article-nav-link-wrap">
@@ -155,7 +169,7 @@ ga('send', 'pageview');
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2015 Zekeair&nbsp;
+      &copy; 2016 Zekeair&nbsp;
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme <a href="https://github.com/Zekeair/hexo-theme-haughty">haughty</a> from <a href="https://github.com/ppoffice/hexo-theme-minos">minos</a>
     </div>
   </div>

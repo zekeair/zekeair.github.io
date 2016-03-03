@@ -5,17 +5,17 @@
   
   <title>Hello World——从Hexo开始(一) - Zekeair&#39;s Track</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="既然是在搭建博客系统，那么当然要介绍和学习一下关于本博客系统的基础引擎Hexo。在写这篇文章的时候，本人也在摸索的学习Hexo。说白了就是玩。所以把这其中遇到的一些问题或者经验记录下来，希望能够帮助到一些初识Hexo的朋友。本文会介绍一些Hexo的基础配置和使用，而比较高阶的比如模板和主题的定制化等，在后续文章中会详细介绍。">
+  <meta name="description" content="先来说说本博客系统的基础引擎Hexo。在写这篇文章的时候，我也是第一次接触Hexo。记录一下其中遇到问题和经验，希望能够帮助到一些初识Hexo的朋友。本文会介绍一些Hexo的基础配置和使用，而比较高阶的比如模板和主题的定制化等，在后续文章中会详细介绍。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World——从Hexo开始(一)">
 <meta property="og:url" content="http://track.zekeair.xyz/2015/12/02/hello-world-from-hexo/index.html">
 <meta property="og:site_name" content="Zekeair's Track">
-<meta property="og:description" content="既然是在搭建博客系统，那么当然要介绍和学习一下关于本博客系统的基础引擎Hexo。在写这篇文章的时候，本人也在摸索的学习Hexo。说白了就是玩。所以把这其中遇到的一些问题或者经验记录下来，希望能够帮助到一些初识Hexo的朋友。本文会介绍一些Hexo的基础配置和使用，而比较高阶的比如模板和主题的定制化等，在后续文章中会详细介绍。">
+<meta property="og:description" content="先来说说本博客系统的基础引擎Hexo。在写这篇文章的时候，我也是第一次接触Hexo。记录一下其中遇到问题和经验，希望能够帮助到一些初识Hexo的朋友。本文会介绍一些Hexo的基础配置和使用，而比较高阶的比如模板和主题的定制化等，在后续文章中会详细介绍。">
 <meta property="og:image" content="http://track.zekeair.xyz/images/gallery/2015/12/02/cover.jpg">
-<meta property="og:updated_time" content="2015-12-22T09:03:11.000Z">
+<meta property="og:updated_time" content="2016-03-03T04:31:27.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World——从Hexo开始(一)">
-<meta name="twitter:description" content="既然是在搭建博客系统，那么当然要介绍和学习一下关于本博客系统的基础引擎Hexo。在写这篇文章的时候，本人也在摸索的学习Hexo。说白了就是玩。所以把这其中遇到的一些问题或者经验记录下来，希望能够帮助到一些初识Hexo的朋友。本文会介绍一些Hexo的基础配置和使用，而比较高阶的比如模板和主题的定制化等，在后续文章中会详细介绍。">
+<meta name="twitter:description" content="先来说说本博客系统的基础引擎Hexo。在写这篇文章的时候，我也是第一次接触Hexo。记录一下其中遇到问题和经验，希望能够帮助到一些初识Hexo的朋友。本文会介绍一些Hexo的基础配置和使用，而比较高阶的比如模板和主题的定制化等，在后续文章中会详细介绍。">
 <meta name="twitter:creator" content="@zekeair">
   
   
@@ -117,30 +117,28 @@ ga('send', 'pageview');
     <div class="article-entry" itemprop="articleBody">
       
         <p><img src="/images/gallery/2015/12/02/cover.jpg" alt=""></p>
-<p>　　既然是在搭建博客系统，那么当然要介绍和学习一下关于本博客系统的基础引擎Hexo。在写这篇文章的时候，本人也在摸索的学习Hexo。说白了就是玩。所以把这其中遇到的一些问题或者经验记录下来，希望能够帮助到一些初识Hexo的朋友。本文会介绍一些Hexo的基础配置和使用，而比较高阶的比如模板和主题的定制化等，在后续文章中会详细介绍。<a id="more"></a><br>　　<br>　　首先，是安装Hexo。关于对于Hexo的介绍和了解，请问Hexo的官网或github页面<a href="https://hexo.io/" target="_blank" rel="external">https://hexo.io/</a>。</p>
+<p>　　先来说说本博客系统的基础引擎Hexo。在写这篇文章的时候，我也是第一次接触Hexo。记录一下其中遇到问题和经验，希望能够帮助到一些初识Hexo的朋友。本文会介绍一些Hexo的基础配置和使用，而比较高阶的比如模板和主题的定制化等，在后续文章中会详细介绍。<a id="more"></a><br>　　<br>　　首先，是安装Hexo(我假设你对于Node以及npm已经有了初步的了解).对于Hexo的介绍和了解，请问Hexo的官网页面<a href="https://hexo.io/" target="_blank" rel="external">https://hexo.io/</a>。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-<blockquote>
-<h3 id="注意：">注意：</h3><p>我发现在Mac操作系统下NodeJS的版本大于等于v5.0.0后，运行Hexo会报部分模块无法找到的错误。我已经提交<a href="https://github.com/hexojs/hexo/issues/1597" target="_blank" rel="external">issue:#1597</a>到了Hexo小组。如果你在使用Hexo的时候问题还没有修复。请以较低版本的NodeJS运行Hexo（比如v0.12.7）。</p>
-</blockquote>
-<p>　　然后，对博客所在的目录进行初始化并跳转到博客目录。这里假设使用的博客目录名称为blog。</p>
+<p>　　初始化一个安放博客文件目录。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog &amp;&amp; <span class="built_in">cd</span> blog</span><br></pre></td></tr></table></figure>
-<p>　　安装所依赖的模块。</p>
+<blockquote class="note warn"><strong class="note-title">注意</strong><p>如果你使用的系统是Mac OX S且版本大于10.9，在运行以上命令时可以会报一些模块无法找到错误。请用 <code>$ hexo init blog --no-optional &amp;&amp; cd blog</code> 替换，详情参考<a href="https://github.com/hexojs/hexo/issues/1597" target="_blank" rel="external">issue:#1597</a></p>
+</blockquote>
+<p>　　此时已经包含了Hexo所需要的所有依赖包的package.json文件，安装必要依赖。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<p>　　由于从Hexo 3开始，server模块已经从主模块中分离，所以需要单独安装。安装server模块并运行server模块。</p>
+<p>　　从Hexo 3开始，server模块已经从主模块中分离，但在实际使用情况，还是必要的。单独安装并运行server模块。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-server --save</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>　　通过浏览器访问<a href="http://localhost:4000" target="_blank" rel="external">localhost:4000</a>即可访问在本地的博客系统。至此，博客系统的雏形就搭建完了。而关于系统的详细配置，目录更改等内容，请参照Hexo官方文档<a href="https://hexo.io/docs/" target="_blank" rel="external">https://hexo.io/docs/</a>。详细而全面同时还友好的支持中文。</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title: Hello World&#10;date: 2013/7/13 20:46:25&#10;---</span><br></pre></td></tr></table></figure>
-<p>　　</p>
+<p>　　此时的博客框架已经搭建好了，并运行在<a href="http://localhost:4000" target="_blank" rel="external">localhost:4000</a>。关于系统更详细配置，目录更改等内容，请参照Hexo官方文档<a href="https://hexo.io/docs/" target="_blank" rel="external">https://hexo.io/docs/</a>。
+　　</p>
 <h3 id="Tips:">Tips:</h3><ul>
 <li><p>Read More/显示详情：对于一些内容较长的博文，往往希望只在展示页显示一部分，通过点击相关链接显示全部内容。那么记得在Post中添加<code>&lt;!-- more --&gt;</code>。其后的内容将不显示在展示页。</p>
 </li>
-<li><p>文章中的图片存放位置：在blog根目录下的source目录下创建一个images目录存放图片，不同的文章可以通过时间或者标题进行划分管理。在文章中只需要通过<code>![](/images/title/picture.jpg)</code>即可以访问。Hexo提供了两外一种方式，按照不同的Post的title创建一个目录存放图片（需要在_config.yml中配置<code>post_asset_folder: true</code>）,然后通过文件的名字即可访问。但由于这种方式是通过相对路径访问，在展示页图片显示异常，同时不利于后期文件的整理和管理。固不推荐第二种方式。</p>
+<li><p>文章中的图片存放位置：在blog根目录下的source目录下创建一个images目录存放图片，不同的文章可以通过时间或者标题进行划分管理。在文章中只需要通过<code>![](/images/title/picture.jpg)</code>即可以访问。Hexo提供了两外一种方式，按照不同的Post的title创建一个目录存放图片（需要在_config.yml中配置<code>post_asset_folder: true</code>）,然后通过文件的名字即可访问。个人觉得这种方式是通过相对路径访问，在展示页图片显示异常，同时不利于后期文件的整理和管理。固不推荐第二种方式。</p>
 </li>
 <li><p>对post的layout的配置：默认的post的layout只有很少的内容。建议将评论和目录的占位符一并添加。当然，也可以创建一个新的layout。</p>
   <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title: &#123;&#123; title &#125;&#125;&#10;date: &#123;&#123; date &#125;&#125;&#10;comments: true&#10;tags:&#10;categories:&#10;---</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<p>　　<strong>至此</strong>，虽然离博客系统的搭建完成还有很多工作要做。但已经可以开始写博文了，只要熟悉<a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">Markdown</a>即可。一边探索Hexo，一边记录post，感觉还是不错的。下篇文章将会说说如何定制化一个Hexo的主题。</p>
+<p>　　现在可以开始写博文了，只要熟悉<a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">Markdown</a>即可。关于更多的Hexo配置和定制化会在以后的文章中描述。下篇文章将会说说如何定制化一个Hexo的主题。</p>
 
       
     </div>
@@ -187,7 +185,7 @@ ga('send', 'pageview');
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2015 Zekeair&nbsp;
+      &copy; 2016 Zekeair&nbsp;
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme <a href="https://github.com/Zekeair/hexo-theme-haughty">haughty</a> from <a href="https://github.com/ppoffice/hexo-theme-minos">minos</a>
     </div>
   </div>
