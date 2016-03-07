@@ -525,6 +525,26 @@ a.bottom-white-dotted {
 .email:before {
   content: "\f0e0";
 }
+.resume-download {
+  text-align: right;
+  padding: 20px 0;
+}
+.resume .title {
+  text-align: center;
+}
+.resume h2 {
+  border-bottom: 1px solid #dcdbdb;
+  padding-bottom: 5px;
+}
+.resume img.QR {
+  margin: 0;
+  float: right;
+}
+@media screen and (max-width: 839px) {
+  .resume img.QR {
+    display: none;
+  }
+}
 #header {
   font-size: 14px;
   position: relative;
