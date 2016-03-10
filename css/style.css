@@ -539,6 +539,7 @@ a.bottom-white-dotted {
 .resume img.QR {
   margin: 0;
   float: right;
+  width: 160px;
 }
 @media screen and (max-width: 839px) {
   .resume img.QR {
