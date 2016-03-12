@@ -527,7 +527,10 @@ a.bottom-white-dotted {
 }
 .resume-download {
   text-align: right;
-  padding: 20px 0;
+  margin: 1.4em 0;
+}
+.resume-language {
+  float: left;
 }
 .resume .title {
   text-align: center;
@@ -543,7 +546,8 @@ a.bottom-white-dotted {
 }
 @media screen and (max-width: 839px) {
   .resume img.QR {
-    display: none;
+    float: none;
+    margin: auto;
   }
 }
 #header {
